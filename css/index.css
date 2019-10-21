@@ -1370,3 +1370,11 @@ margin-bottom: 15px;
 	background-position: center;
 }
 /*header__slider*/
+
+.select_box__1 select {
+outline: none;
+}
+
+.select_box__2 select {
+outline: none;
+}
