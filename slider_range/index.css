@@ -1,0 +1,88 @@
+.flex {
+	margin: 50px;
+	height: 100px;
+	width: 500px;
+	display: flex;
+	align-items: center;
+}
+
+.ui-slider {
+	position: relative;
+	width: 262px;
+	height: 6px;
+	background: #d8d8d8;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.ui-slider-range {
+	background: #1aa1dd;
+	font-weight: bold;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+	top: 0;
+	height: 100%;
+	left: 15%;
+	width: 45%;
+}
+
+.ui-slider-handle {
+	font-size: 1em;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	position: absolute;
+	z-index: 2;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	touch-action: none;
+	top: -.3em;
+	margin-left: -.6em;
+/*	border: 1px solid #c5c5c5;*/
+	background: #1aa1dd;
+	left: 15%;
+	border-radius: 100%;
+	outline: none;
+}
+
+#left_side {
+	display: block;
+	margin-right: 10px;
+	width: 100px;
+	text-align: center;
+}
+
+#right_side {
+	display: block;
+	margin-left: 10px;
+	width: 100px;
+	text-align: center;
+}
+
+#slider a:hover {
+
+}
+
+#slider a:after {
+	content: "";
+	display: block;
+	background-color: #fff;
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	right: 4.5px;
+	bottom: 5px;
+	border-radius: 50%;
+}
