@@ -294,13 +294,15 @@ main {
 .section_dropbox {
 	width: 1300px;
 	height: 299px;
-	display: flex;
 }
 
 .section_select {
 	font-family: "Roboto Condensed";
 	max-width: 1140px;
 	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section_select h2 {
